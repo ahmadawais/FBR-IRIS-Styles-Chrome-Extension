@@ -1,0 +1,27 @@
+body {
+	max-width: 60% !important;
+	margin: 0 auto !important;
+}
+
+.ui-menuitem-link {
+	width: 100% !important;
+}
+
+.ui-datatable.ui-widget.panelGrid {
+	max-width: 700px !important;
+	margin: 0 auto !important;
+	padding: 1rem !important;
+}
+
+th[aria-label='Action'] {
+	min-width: 60px !important;
+}
+
+input[id='correspondence:taxPeriod'] {
+	min-width: 1.5rem;
+	background: #fad000 !important;
+}
+
+table tr:nth-child(even) {
+	background: #dedede !important;
+}
